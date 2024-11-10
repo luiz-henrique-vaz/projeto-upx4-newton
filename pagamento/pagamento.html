@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tela de Pagamento</title>
+  <link rel="stylesheet" href="pagemento.css">
+</head>
+<body>
+    <img class="logo" src="/assets/Easy Loc.png" alt="Logo da Easy Loc">
+
+  <div class="container">
+    <h3>Confirme seu Pagamento</h3>
+    <p>Valor Total: R$ <span id="valor-total"></span></p>
+
+    <form action="#" method="post">
+      <label for="forma-pagamento">Forma de Pagamento:</label>
+      <select id="forma-pagamento">
+        <option value="cartao">Cartão de Crédito</option>
+        <option value="boleto">Boleto Bancário</option>
+        <option value="pix" selected>PIX</option>
+      </select>
+      <section class="card-datails" id="dados-cartao" style="display: none;">
+          <div >
+            <label for="numero-cartao">Número do Cartão:</label>
+            <input type="text" id="numero-cartao" />
+          </div>
+          <div>        
+            <label for="numero-cartao">Nome no Cartão:</label>
+            <input type="text" id="numero-cartao" />
+          </div>   
+          <div>
+              <label for="numero-cartao">Código de segurança:</label>
+              <input type="text" id="numero-cartao" />
+          </div>
+      </section>
+        
+
+      <a class="btn-pagamento" href="/alugados/alugados.html">Confirmar Pagamento</a>
+    </form>
+  </div>
+  <footer class="rodape">
+    <a href="/home/home.html"><img src="/assets/silhueta-de-icone-de-casa 1.png" alt=""></a>
+    <a href="/alugados/alugados.html"><img src="/assets/carro 1.png" alt=""></a>
+    <a href="menu"><img src="/assets/menu-de-hamburguer 1.png" alt=""></a>
+  </footer>
+
+  <script src="pagemento.js"></script>
+</body>
+</html>

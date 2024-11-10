@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Veículos</title>
+  <link rel="stylesheet" href="alugar.css">
+</head>
+<body>
+    <img class="logo" src="/assets/Easy Loc.png" alt="Logo da Easy Loc">
+    <h4>Alugar</h4>
+  <ul class="vehicle-list">
+    <li class="vehicle-item">
+        <img src="/assets/fordKa.png" alt="" class="vehicle-image">
+      <div class="vehicle-info">
+        <p ><strong>FORD KA</strong></p>
+        <p><strong>Categoria:</strong> CE - Compacto Especial</p>
+        <p><strong>Valor Diária:</strong> R$ 105,00</p>
+        <label for="data-retirada"><strong>Data de Retirada:</strong></label>
+        <input type="date" id="data-retirada">
+        <label for="data-devolucao"><strong>Data de Devolução:</strong></label>
+        <input type="date" id="data-devolucao">
+        <p><strong>Valor Total:</strong> R$ <span id="valor-total">0</span></p>
+        <p><strong>Dias:</strong> <span id="dias">0</span></p>
+      </div>
+      <a href="/pagamento/pagamento.html" class="more-info">Alugar veículo</a>
+    </li>
+    </ul>
+    <footer class="rodape">
+        <a href="/home/home.html"><img src="/assets/silhueta-de-icone-de-casa 1.png" alt=""></a>
+        <a href="/alugados/alugados.html"><img src="/assets/carro 1.png" alt=""></a>
+        <a href="menu"><img src="/assets/menu-de-hamburguer 1.png" alt=""></a>
+      </footer>
+    <script src="alugar.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body{
+    background-color: #FFFF;
+    padding-bottom: 60px; 
+}
+.logo{
+    margin: 1.5rem;
+    margin-bottom: 0%;
+}
+  
+  .vehicle-image {
+    width: 50vw;
+    height: auto; /* Ajuste a largura conforme necessário */
+    margin-right: 10px;
+  }
+
+.vehicle-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .vehicle-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+  
+  .vehicle-info {
+    margin-bottom: 10px;
+    
+  }
+
+  .more-info{
+    margin-left: 1.5rem;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .rodape {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+  }
